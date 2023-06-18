@@ -2,21 +2,15 @@
 // Importing Part
 import SectionComponent from './../chunks/sectionComponent.tsx';
 import IconComponent from "../chunks/iconComponent.tsx";
-import bottomImage from './../assets/img/firstSection/img-bottom.png';
+import BottomImage from './../assets/img/firstSection/img-bottom.png';
 
 // Creating and exporting functional component of First Section, as default
 export default function FirstSectionComponent() {
     // Returning JSX
     return (
-        <SectionComponent className={'relative mt-[132px]'}>
-            <h6 className={'font-[14px] font-normal text-my-grey absolute left-0 top-[54px]'}>| Home</h6>
-            <div className={'flex flex-col gap-[33px] absolute right-0 translate-x-[100%] -top-[30px]'}>
-                <a href="#"><IconComponent type={'reddit'}/></a>
-                <a href="#"><IconComponent type={'discord'}/></a>
-                <a href="#"><IconComponent type={'twitter'}/></a>
-                <a href="#"><IconComponent type={'instagram'}/></a>
-            </div>
-            <div className={'flex justify-center'}>
+        <SectionComponent className={'mt-[50px] relative'}>
+            <div className={'flex items-start justify-between z-10'}>
+                <h6 className={'font-[14px] font-normal text-my-grey'}>| Home</h6>
                 <h1 className={'text-[144px] font-bold text-white leading-[158px] z-10'}>
                     METAVERSE
                     <span className={'flex items-center'}>
@@ -27,7 +21,14 @@ export default function FirstSectionComponent() {
                     NESS
                 </span>
                 </h1>
+                <div className={'flex flex-col gap-[33px] z-10'}>
+                    <a href="#"><IconComponent type={'reddit'}/></a>
+                    <a href="#"><IconComponent type={'discord'}/></a>
+                    <a href="#"><IconComponent type={'twitter'}/></a>
+                    <a href="#"><IconComponent type={'instagram'}/></a>
+                </div>
             </div>
+            <img src={BottomImage} alt="ilustration of space" className={'absolute top-[300px] right-0 -z-10'}/>
         </SectionComponent>
     );
 }
