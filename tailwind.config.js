@@ -8,7 +8,10 @@ export default {
   ],
   theme: {
       extend: {
-          colors: {"theme-color" : '#1A232E'},
+          colors: {
+              "theme-color" : '#1A232E',
+              "my-grey": 'rgba(199,199,199,.5)',
+          },
           maxWidth: {"page-holder": "1150px"},
           fontFamily: {"primary" : ['Eudoxus', 'sans-serif'],},
       },

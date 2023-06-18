@@ -4,6 +4,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import '../dist/tailwindOutput.css';
 import App from "./app.tsx";
+import "./assets/font/font.css";
 
 // Variables
 const rootElement = document.getElementById('root') as HTMLElement;

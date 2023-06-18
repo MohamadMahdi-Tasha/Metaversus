@@ -1,8 +1,4 @@
 /*Codes By Mahdi Tasha*/
-
-/*Importing Eudoxus Font*/
-@import "./assets/font/font.css";
-
 /*Importing TailwindCSS*/
 @tailwind components;
 @tailwind base;
