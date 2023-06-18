@@ -1,9 +1,12 @@
-/** @type {import('tailwindcss').Config} */
+// Codes By Mahdi Tasha
+// Confining TailwindCSS files
 export default {
-  content: [],
-  theme: {
-    extend: {},
-  },
+  content: [
+      './index.html',
+      './src/*.{ts,tsx}',
+      './src/**/*.{ts,tsx}'
+  ],
+  theme: {extend: {},},
   plugins: [],
 }
 
