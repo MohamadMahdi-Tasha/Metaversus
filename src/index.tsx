@@ -2,7 +2,7 @@
 // Importing Part
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import './index.css'
+import '../dist/tailwindOutput.css';
 import App from "./app.tsx";
 
 // Variables

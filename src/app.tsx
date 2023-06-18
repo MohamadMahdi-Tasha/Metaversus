@@ -1,8 +1,11 @@
 // Codes By Mahdi Tasha
+// Importing Part
+import HeaderComponent from "./components/headerComponent.tsx";
+
 // Creating and exporting functional component of whole app, as default
-export default function App() {
+export default function App():JSX.Element {
     // Returning JSX
     return (
-        <h1>Hello From App Component</h1>
+        <HeaderComponent />
     );
 }
