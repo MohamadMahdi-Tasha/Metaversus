@@ -10,7 +10,7 @@ export default function HeaderComponent():JSX.Element {
         <header>
             <HolderComponent className={'flex items-center justify-between'}>
                 <button className={'active:scale-75 transition'}><IconComponent type={'search'}/></button>
-                <a href={'#'} className={'text-white font-extrabold text-[24px]'}>METAVERSUS</a>
+                <a href={'#'} className={'text-white font-bold font-[24px]'}>METAVERSUS</a>
                 <button className={'active:scale-75 transition'}><IconComponent type={'menu'}/></button>
             </HolderComponent>
         </header>
