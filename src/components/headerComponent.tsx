@@ -1,15 +1,18 @@
 // Codes By Mahdi Tasha
 // Importing Part
 import IconComponent from "../chunks/iconComponent.tsx";
+import HolderComponent from "../chunks/holderComponent.tsx";
 
 // Creating and exporting functional component of Header in top, as default
 export default function HeaderComponent():JSX.Element {
     // Returning JSX
     return (
         <header>
-            <IconComponent type={'search'}/>
-            <h6>METAVERSUS</h6>
-            <IconComponent type={'menu'}/>
+            <HolderComponent className={'flex items-center justify-between'}>
+                <button className={'active:scale-75 transition'}><IconComponent type={'search'}/></button>
+                <a href={'#'} className={'text-white font-extrabold text-[24px]'}>METAVERSUS</a>
+                <button className={'active:scale-75 transition'}><IconComponent type={'menu'}/></button>
+            </HolderComponent>
         </header>
     );
 }
