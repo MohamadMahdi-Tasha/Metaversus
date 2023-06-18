@@ -1,0 +1,36 @@
+/*Codes By Mahdi Tasha*/
+/*Declaring Our Font to use it*/
+@font-face {
+    font-family: "Eudoxus";
+    font-style: normal;
+    font-weight: 200;
+    src: url("./fontFiles/EudoxusSans-ExtraLight.woff2");
+}
+
+@font-face {
+    font-family: "Eudoxus";
+    font-style: normal;
+    font-weight: 300;
+    src: url("./fontFiles/EudoxusSans-Light.woff2");
+}
+
+@font-face {
+    font-family: "Eudoxus";
+    font-style: normal;
+    font-weight: 400;
+    src: url("./fontFiles/EudoxusSans-Regular.woff2");
+}
+
+@font-face {
+    font-family: "Eudoxus";
+    font-style: normal;
+    font-weight: 500;
+    src: url("./fontFiles/EudoxusSans-Medium.woff2");
+}
+
+@font-face {
+    font-family: "Eudoxus";
+    font-style: normal;
+    font-weight: 700;
+    src: url("./fontFiles/EudoxusSans-Bold.woff2");
+}

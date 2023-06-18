@@ -9,9 +9,9 @@ export default {
   theme: {
       extend: {
           colors: {"theme-color" : '#1A232E'},
-          maxWidth: {"page-holder": "1150px"}
+          maxWidth: {"page-holder": "1150px"},
+          fontFamily: {"primary" : ['Eudoxus', 'sans-serif'],},
       },
   },
   plugins: [],
 }
-
