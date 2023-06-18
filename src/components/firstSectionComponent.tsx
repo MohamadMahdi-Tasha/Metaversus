@@ -10,7 +10,7 @@ export default function FirstSectionComponent() {
     return (
         <SectionComponent className={'mt-[50px] relative'}>
             <div className={'flex items-start justify-between z-10'}>
-                <h6 className={'font-[14px] font-normal text-my-grey'}>| Home</h6>
+                <h6 className={'text-[14px] font-normal text-my-grey'}>| Home</h6>
                 <h1 className={'text-[144px] font-bold text-white leading-[158px] z-10'}>
                     METAVERSE
                     <span className={'flex items-center'}>
