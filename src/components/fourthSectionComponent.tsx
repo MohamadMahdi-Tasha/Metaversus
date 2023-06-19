@@ -10,9 +10,9 @@ import TitlesComponent from "../chunks/titlesComponent.tsx";
 export default function FourthSectionComponent():JSX.Element {
     // Returning JSX
     return (
-        <SectionComponent className={'mt-[200px] flex items-center'}>
-            <img className={'w-[50%]'} src={LeftSideImage} alt="Image of planet"/>
-            <div className={'w-[50%]'}>
+        <SectionComponent className={'lg:mt-[200px] mt-[100px] flex lg:flex-row flex-col items-center'}>
+            <img className={'lg:w-[50%] w-full'} src={LeftSideImage} alt="Image of planet"/>
+            <div className={'lg:w-[50%] w-full'}>
                 <PreTitlesComponent>| How Metaverus Works</PreTitlesComponent>
                 <TitlesComponent>Get started with just a few clicks</TitlesComponent>
                 <ul className={'flex flex-col gap-[24px]'}>

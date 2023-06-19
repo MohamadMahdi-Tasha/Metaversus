@@ -9,7 +9,7 @@ import PreTitlesComponent from "../chunks/preTitlesComponent.tsx";
 export default function ThirdSectionComponent():JSX.Element {
     // Returning JSX
     return (
-        <SectionComponent className={'mt-[202px]'}>
+        <SectionComponent className={'lg:mt-[200px] mt-0'}>
             <PreTitlesComponent centred>| The World</PreTitlesComponent>
             <TitlesComponent centred>Choose the world you want to explore</TitlesComponent>
             <AcardeonHolderComponent />

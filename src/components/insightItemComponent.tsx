@@ -16,13 +16,13 @@ export default function InsightItemComponent({img,title,paragraph}:propsType):JS
     // Returning JSX
     return (
         <li>
-            <a href="#" className={'flex items-center'}>
-                <img className={'w-[270px] h-[250px] object-cover rounded-[32px] mr-[62px]'} src={img} alt="Image of insight"/>
-                <div className={'mr-[92px]'}>
+            <a href="#" className={'flex lg:flex-row flex-col items-center justify-start'}>
+                <img className={'lg:w-[270px] w-full h-[250px] object-cover rounded-[32px] lg:mr-[62px] mr-0 lg:mb-0 mb-[18px]'} src={img} alt="Image of insight"/>
+                <div className={'lg:mr-[92px] mr-0 lg:mb-0 mb-[20px]'}>
                     <TitlesComponent small>{title}</TitlesComponent>
                     <ParagrapchComponent>{paragraph}</ParagrapchComponent>
                 </div>
-                <IconComponent type={'circle-arrow-top-right'}/>
+                <IconComponent className={'lg:block hidden'} type={'circle-arrow-top-right'}/>
             </a>
         </li>
     );

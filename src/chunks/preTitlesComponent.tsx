@@ -10,6 +10,6 @@ export default function PreTitlesComponent({children, centred}:propsType):JSX.El
     // Returning JSX
     return <h6 className={`
         font-normal text-[14px] text-my-grey mb-[8px] 
-        ${(centred) ? ' text-center' : false}`
+        ${(centred) ? ' lg:text-center text-left' : false}`
     }>{children}</h6>
 }

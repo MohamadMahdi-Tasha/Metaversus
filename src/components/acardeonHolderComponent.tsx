@@ -19,7 +19,7 @@ export default function AcardeonHolderComponent():JSX.Element {
 
     // returning jsx
     return (
-        <div className={'flex gap-[32px] justify-center transition'}>
+        <div className={'flex lg:flex-row flex-col gap-[32px] justify-center transition'}>
             <AcardeonItemComponent onClick={() => {setItemOpened1(true);setItemOpened2(false);setItemOpened3(false);setItemOpened4(false);setItemOpened5(false);}} bg={image1} name={'The Hogwartsasdasdasdasdasda'} isOpened={isItemOpened1}/>
             <AcardeonItemComponent onClick={() => {setItemOpened1(false);setItemOpened2(true);setItemOpened3(false);setItemOpened4(false);setItemOpened5(false);}} bg={image2} name={'The Upside Down'} isOpened={isItemOpened2}/>
             <AcardeonItemComponent onClick={() => {setItemOpened1(false);setItemOpened2(false);setItemOpened3(true);setItemOpened4(false);setItemOpened5(false);}} bg={image3} name={'Kadirojo Permai'} isOpened={isItemOpened3}/>

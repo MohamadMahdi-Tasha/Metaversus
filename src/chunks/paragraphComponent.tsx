@@ -14,7 +14,7 @@ export default function ParagraphComponent({children, centred, big, truncate}:pr
         text-my-grey 
         ${(truncate) ? ' truncate' : false} 
         ${(centred) ? ' text-center' : false} 
-        ${(big) ? ' font-extrabold text-[32px] leading-[52px]' : ' font-normal text-[18px] leading-[32px]'}
+        ${(big) ? ' font-extrabold lg:text-[32px] text-[16px] lg:leading-[52px] leading-[23px]' : ' font-normal text-[18px] leading-[32px]'}
     `}>{children}</p>
 
 }

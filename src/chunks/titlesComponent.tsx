@@ -11,7 +11,7 @@ export default function TitlesComponent({children,centred,small}:propsType):JSX.
     // Returning JSX
     return <h1 className={`
         font-bold  text-white
-        ${(small) ? ' text-[42px] mb-[16px]' : 'text-[64px] mb-[50px]'}
-        ${(centred) ? ' text-center' : false}
+        ${(small) ? ' lg:text-[42px] text-[24px] mb-[16px]' : 'lg:text-[64px] text-[32px] mb-[50px]'}
+        ${(centred) ? ' lg:text-center text-left' : false}
     `}>{children}</h1>
 }
