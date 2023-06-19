@@ -4,6 +4,7 @@ import SectionComponent from './../chunks/sectionComponent.tsx';
 import IconComponent from "../chunks/iconComponent.tsx";
 import BottomImage from './../assets/img/firstSection/img-bottom.png';
 import MouseRotatingAnimationComponent from './../chunks/mouseRotatingAnimationComponent.tsx';
+import PreTitlesComponent from "../chunks/preTitlesComponent.tsx";
 
 // Creating and exporting functional component of First Section, as default
 export default function FirstSectionComponent() {
@@ -11,7 +12,7 @@ export default function FirstSectionComponent() {
     return (
         <SectionComponent className={'mt-[50px] relative'}>
             <div className={'flex items-start justify-between z-10'}>
-                <h6 className={'text-[14px] font-normal text-my-grey'}>| Home</h6>
+                <PreTitlesComponent>| Home</PreTitlesComponent>
                 <h1 className={'text-[144px] font-bold text-white leading-[158px] z-10'}>
                     METAVERSE
                     <span className={'flex items-center'}>

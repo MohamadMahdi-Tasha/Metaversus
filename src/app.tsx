@@ -8,6 +8,7 @@ import ThirdSectionComponent from './components/thirdSectionComponent.tsx';
 import FourthSectionComponent from "./components/fourthSectionComponent.tsx";
 import FifthSectionComponent from "./components/fifthSectionComponent.tsx";
 import SixthSectionComponent from "./components/sixthSectionComponent.tsx";
+import SeventhSectionComponent from "./components/seventhSectionComponent.tsx";
 
 // Creating and exporting functional component of whole app, as default
 export default function App():JSX.Element {
@@ -21,6 +22,7 @@ export default function App():JSX.Element {
             <FourthSectionComponent />
             <FifthSectionComponent />
             <SixthSectionComponent />
+            <SeventhSectionComponent />
         </React.Fragment>
     );
 }
