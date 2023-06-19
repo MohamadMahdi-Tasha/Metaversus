@@ -11,6 +11,7 @@ export default {
           colors: {
               "theme-color" : '#1A232E',
               "my-grey": 'rgba(199,199,199,.5)',
+              "my-blue": '#25618B',
           },
           maxWidth: {"page-holder": "1150px"},
           fontFamily: {"primary" : ['Eudoxus', 'sans-serif'],},
