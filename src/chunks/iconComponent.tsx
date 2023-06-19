@@ -4,7 +4,7 @@ interface propsType {type: string;}
 
 // Creating and exporting functional component of Icons in top, as default
 export default function IconComponent({type}:propsType):any {
-    // Returning JSX based on functional component
+    // Conditional Rendering
     if (type === 'search') {
         return (
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
