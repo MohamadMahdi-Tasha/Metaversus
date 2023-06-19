@@ -7,12 +7,12 @@ import IconComponent from "../chunks/iconComponent.tsx";
 // Creating and exporting functional component of Footer, as default
 export default function FooterComponent():JSX.Element {
     return (
-        <footer>
+        <footer className={'mt-[200px]'}>
             <HolderComponent>
                 <div className={'flex items-center justify-between pb-[100px] border-b border-b-white/10'}>
                     <h1 className={'font-bold text-white text-[64px] mb-0'}>Enter the metaverse</h1>
                     <a href="#">
-                        <button className={'active:scale-75 transition bg-my-blue rounded-[50rem] p-[22px] flex text-white'}>
+                        <button tabIndex={-1} className={'active:scale-75 transition bg-my-blue rounded-[50rem] p-[22px] flex text-white'}>
                             <IconComponent type={'vr'} />
                             <span className={'ml-[12px]'}>ENTER METAVERSE</span>
                         </button>
