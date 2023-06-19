@@ -15,7 +15,10 @@ export default {
           maxWidth: {"page-holder": "1150px"},
           fontFamily: {"primary" : ['Eudoxus', 'sans-serif'],},
           animation: {'spin-slow': 'spin 5s linear infinite',},
-          backgroundImage: {'home-bg': "url('./src/assets/img/img-bg.png')"}
+          backgroundImage: {
+              'home-bg': "url('./src/assets/img/img-bg.png')",
+              'pink-gradiant': 'url("./src/assets/img/eighthSection/left-side-bg.png")'
+          }
       },
   },
   plugins: [],
