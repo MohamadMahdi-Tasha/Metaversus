@@ -15,6 +15,7 @@ export default {
           maxWidth: {"page-holder": "1150px"},
           fontFamily: {"primary" : ['Eudoxus', 'sans-serif'],},
           animation: {'spin-slow': 'spin 5s linear infinite',},
+          backgroundImage: {'home-bg': "url('./src/assets/img/img-bg.png')"}
       },
   },
   plugins: [],
