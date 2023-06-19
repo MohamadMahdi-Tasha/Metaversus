@@ -7,7 +7,7 @@ import MouseRotatingAnimationComponent from './../chunks/mouseRotatingAnimationC
 import PreTitlesComponent from "../chunks/preTitlesComponent.tsx";
 
 // Creating and exporting functional component of First Section, as default
-export default function FirstSectionComponent() {
+export default function FirstSectionComponent():JSX.Element {
     // Returning JSX
     return (
         <SectionComponent className={'mt-[50px] relative'}>

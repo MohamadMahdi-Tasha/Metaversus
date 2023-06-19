@@ -5,7 +5,7 @@ import MouseRotatingAnimationComponent from "../chunks/mouseRotatingAnimationCom
 import RightSideImage from "../assets/img/eighthSection/img-right.png";
 
 // Creating and exporting functional component of Eighth Section, as default
-export default function EighthSection():JSX.Element {
+export default function EighthSectionComponent():JSX.Element {
     // Returning JSX
     return (
         <SectionComponent className={'mt-[200px] relative flex'}>

@@ -9,7 +9,7 @@ interface propsTypes {
 }
 
 // Creating and exporting functional component of Sections, as default
-export default function SectionComponent({children,className}:propsTypes) {
+export default function SectionComponent({children,className}:propsTypes):JSX.Element {
     // Returning JSX
     return (
         <section>
