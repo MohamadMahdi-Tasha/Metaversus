@@ -14,7 +14,7 @@ export default function EighthSectionComponent():JSX.Element {
                 <h6 className={'lg:text-[18px] text-[16px] font-normal mb-[24px] text-white'}>Founder Metaverus</h6>
                 <blockquote><p className={'lg:text-[24px] text-[20px] font-normal text-white'}>“With the development of today's technology, metaverse is very useful for today's work, or can be called web 3.0. by using metaverse you can use it as anything”</p></blockquote>
             </figure>
-            <MouseRotatingAnimationComponent className={'absolute lg:top-[60px] top-[550px] left-[280px]'} />
+            <MouseRotatingAnimationComponent className={'absolute lg:top-[60px] top-[620px] left-[50%] lg:translate-x-0 -translate-x-[50%]'} />
             <img className={'h-[610px] mt-[10px] lg:w-[768px] w-full object-cover rounded-[32px]'} src={RightSideImage} alt="illustration of space"/>
         </SectionComponent>
     );

@@ -31,7 +31,7 @@ export default function FirstSectionComponent():JSX.Element {
                 </div>
             </div>
             <img src={BottomImage} alt="ilustration of space" className={'lg:absolute lg:mt-0 mt-[32px] static lg:w-auto lg:h-auto w-full h-[250px] object-cover rounded-[55px] top-[300px] right-0 -z-10'}/>
-            <MouseRotatingAnimationComponent className={'lg:top-[630px] top-[367px] right-[50px]'}/>
+            <MouseRotatingAnimationComponent className={'lg:top-[630px] top-[400px] right-[50px]'}/>
         </SectionComponent>
     );
 }
